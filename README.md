@@ -3,10 +3,10 @@
 
 # 启动调试 #
 * 启动配置
-    ![1][base64_appstartup]
+    ![](snapshot/app_startup_config.png)
     
 * 展示效果
-    ![2][base64_ui]
+    ![](snapshot/painter.png)
 
 # Modules结构 #
 * Launcher
