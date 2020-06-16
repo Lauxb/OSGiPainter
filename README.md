@@ -3,20 +3,20 @@
 
 # 启动调试 #
 * 启动配置
-    Run/Debug Configurations
-    1、添加Application
-    2、指定Main class: 	com.dist.paint.launcher.Main
-    3、指定Working directory:	d:\xx\OSGiPainter\src\release\dist
-    4、指定Environment variables:	path=bin
-    5、Use classpath of module: 	Launcher
-    6、Before launch
-    	Run Maven Goal 'OSGiPainter:clean'
-    	Run Maven Goal 'OSGiPainter:install'
-    ![](snapshot/app_startup_config.png)
+* Run/Debug Configurations
+  * 1、添加Application
+  * 2、指定Main class: 	com.dist.paint.launcher.Main
+  * 3、指定Working directory:	d:\xx\OSGiPainter\src\release\dist
+  * 4、指定Environment variables:	path=bin
+  * 5、Use classpath of module: 	Launcher
+  * 6、Before launch
+   * Run Maven Goal 'OSGiPainter:clean'
+   * Run Maven Goal 'OSGiPainter:install'
+  * ![](snapshot/app_startup_config.png)
     
 * 展示效果
-    具体请查看snapshot文件夹下的图片。
-    ![](snapshot/painter.png)
+  * 具体请查看snapshot文件夹下的图片。
+  * ![](snapshot/painter.png)
 
 # Modules结构 #
 * Launcher
